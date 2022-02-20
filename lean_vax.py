@@ -196,7 +196,7 @@ def plot_pop_scatter(df):
     yticks = mtick.FormatStrFormatter(fmt)
     ax.yaxis.set_major_formatter(yticks)
 
-    #regression(df)
+    regression(df)
 
     plt.show()
 
@@ -223,11 +223,11 @@ plot_lean_scatter(df_vax)
 
 df_pop = merge_pop()
 
-#plot_pop_scatter(df_pop)
+plot_pop_scatter(df_pop)
 
 df_median = merge_median()
 
-#plot_median_scatter(df_median)
+plot_median_scatter(df_median)
 
 
 
